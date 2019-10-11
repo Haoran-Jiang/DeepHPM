@@ -15,6 +15,7 @@ Installation is most easily done using pip.
 3. Install required packages
 ```bash
 cd <your directory>
+git clone https://github.com/Haoran-Jiang/DeepHPM.git
 pip install -r requirements.txt
 ```
 
