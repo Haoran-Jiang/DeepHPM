@@ -28,5 +28,9 @@ movefile('chebfun-master', 'chebfun'), addpath(fullfile(cd,'chebfun')), savepath
 
 # Usage
 
-1. The Code folder contains all the examples in [Deep Hidden Physics Models: Deep Learning of Nonlinear Partial Differential Equations].
+1. The Code folder contains all the examples in [Deep Hidden Physics Models: Deep Learning of Nonlinear Partial Differential Equations]. For example, if we want to do Deep Hidden Physics model on Burgers equation, we can 
+```bash
+cd Codes
+python3 Burgers_Different.py
+```
 2. The MATLAB folder contains MATLAB codes which can generate Burgers, KdV, KS, Schrodinger equations. 
